@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Sora:wght@400;500;600;700;800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+
+    --bg-color: #F2F7FF;
+    --footer-bg-color: #0A0E31;
+    --text-color: #6C87AE;
+    --gradient-1: #1678F2;
+    --gradient-2: #f21616;
+
+}
+
+.full-content {
+    display: flex;
+    background: var(--bg-color);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.full-content form {
+    width: 500px;
+    background: linear-gradient(141deg, #3A8EF6 0%, #6F3AFA 100%);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 13px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.full-content form .url-input {
+    margin: 30px 0;
+}
+
+.url-input .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.url-input .required-mark {
+    color: #f5483b;
+}
+
+.url-input .field {
+    margin-top: 5px;
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+
+.url-input .field input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    background: var(--bg-color);
+    border-radius: 5px;
+}
+
+.url-input .field input:focus {
+    border-bottom: 3px solid var(--gradient-2, linear-gradient(141deg, #e74747 0%, #fa3a3a 100%));
+}
+
+form .preview-area {
+    border-radius: 5px;
+    height: 200px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    border: 2px dashed white;
+}
+
+form .preview-area .icon {
+    color: #F2F7FF;
+    font-size: 80px;
+}
+
+.preview-area.active {
+    border: none;
+}
+
+.preview-area .thumbnail {
+    width: 100%;
+    display: none;
+    border-radius: 5px;
+}
+
+.preview-area.active .thumbnail {
+    display: block;
+}
+.preview-area.active .icon{
+  display: none;
+}
+form .download-btn {
+    color: #5d5858;
+    height: 53px;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 30px 0 20px 0;
+    border-radius: 5px;
+    background: #F2F7FF;
+    pointer-events: none;
+    transition: background 0.3s ease;
+}
+
+.download-btn:hover {
+    background: #505377;
+    color: white;
+}
+
+/* @media screen and (max-width: 460px){
+    body{
+      padding: 0 20px;
+    }
+    form header{
+      font-size: 24px;
+    }
+    .url-input .field,
+    form .download-btn{
+      height: 45px;
+    }
+    form .download-btn{
+      font-size: 15px;
+    }
+    form .preview-area{
+      height: 130px;
+    }
+    .preview-area .icon{
+      font-size: 50px;
+    }
+    .preview-area span{
+      margin-top: 10px;
+      font-size: 12px;
+    }
+  } */
