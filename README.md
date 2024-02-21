@@ -2,4 +2,4 @@
 
 This PHP code snippet is designed to download an image file from a specified URL when a form is submitted.
 
-![img](https://github.com/wassi10/Thambnail-Download/assets/91429665/566e08bf-61bd-42dc-a0fe-068db27285ae)
+![img1](https://github.com/wassi10/Thambnail-Download/assets/91429665/62047ea9-964e-4d5b-97a9-5d905c6565a4)
