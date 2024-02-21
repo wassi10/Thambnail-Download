@@ -127,29 +127,3 @@ form .download-btn {
     background: #505377;
     color: white;
 }
-
-/* @media screen and (max-width: 460px){
-    body{
-      padding: 0 20px;
-    }
-    form header{
-      font-size: 24px;
-    }
-    .url-input .field,
-    form .download-btn{
-      height: 45px;
-    }
-    form .download-btn{
-      font-size: 15px;
-    }
-    form .preview-area{
-      height: 130px;
-    }
-    .preview-area .icon{
-      font-size: 50px;
-    }
-    .preview-area span{
-      margin-top: 10px;
-      font-size: 12px;
-    }
-  } */
